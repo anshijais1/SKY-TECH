@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(background.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            margin: 0;
+            padding: 0;
+        }
+        
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set the height of the container to the full viewport height */
+        }
+        p{
+            font-style: bold;
+            color: azure;
+            font-weight: 45px;
+            padding: 15px;
+        }
+      
+        .div {
+            background-color: rgba(147, 147, 240, 0.8); /* Adjusted background color with opacity */
+
+            background-image: url(th\ \(5\).jpeg);
+            background-repeat: no-repeat;
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            border: black solid 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 375px;
+            width: 375px;
+            font-size: 45px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 56px;
+        }
+        
+        #but {
+            background-color: rgb(121, 44, 21);
+            padding: 15px;
+            margin-top: 50px;
+            height: 55px;
+            width: 156px;
+            color: azure;
+            border-radius: 5.5px;
+            border: none;
+        }
+        #but:hover{
+            scale: 1.1;
+            background-color: rgb(239, 145, 145);
+        }
+        #but1:hover{
+            scale: 1.1;
+            background-color: rgb(114, 211, 140);
+        }
+        
+        #but1 {
+            background-color: rgb(99, 165, 75);
+            padding: 15px;
+            height: 55px;
+            width: 156px;
+            color: azure;
+            border-radius: 5.5px;
+            border: none;
+        }
+        a{
+            color: black;
+            font-weight: 45;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        a:hover{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div">
+            <p> Save water bodies and marine lives</p>
+        </div>
+        <br>
+        <a href="https://youtu.be/xdVyJ5gS1XQ?si=v4soqvumI_qAyBKK">Watch Video for help</a>
+        <div class="button">
+            <button id="but">Upload Image</button>
+            <button id="but1">Challenge Completed</button>
+        </div>
+    </div>
+    <script src="prize.js"></script>
+</body>
+</html>
